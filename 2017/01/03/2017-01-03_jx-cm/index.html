@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>江西移动现状分析 | ‘s Memory1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="江西移动于2016年年末对计费系统进行了改造升级，首先是针对10.xx内网段进行升级导致所有老套路干扰失效，随后对100.xx段也进行了升级，至此江西南昌地区移动免流基本和谐。 优先级（检测时间2017/1/1）: HTTP部分 M&amp;gt;H&amp;gt;XH检测XH空首H有网HTTPS H&amp;gt;XH&amp;gt;M不检测XH空首H无网干扰： 真H前加文字、符号无网\n 被检测跳转\t 空格无效\r似乎无效">
+<meta property="og:type" content="article">
+<meta property="og:title" content="江西移动现状分析">
+<meta property="og:url" content="http://yoursite.com/2017/01/03/2017-01-03_jx-cm/index.html">
+<meta property="og:site_name" content="‘s Memory1">
+<meta property="og:description" content="江西移动于2016年年末对计费系统进行了改造升级，首先是针对10.xx内网段进行升级导致所有老套路干扰失效，随后对100.xx段也进行了升级，至此江西南昌地区移动免流基本和谐。 优先级（检测时间2017/1/1）: HTTP部分 M&amp;gt;H&amp;gt;XH检测XH空首H有网HTTPS H&amp;gt;XH&amp;gt;M不检测XH空首H无网干扰： 真H前加文字、符号无网\n 被检测跳转\t 空格无效\r似乎无效">
+<meta property="og:locale" content="en_US">
+<meta property="og:updated_time" content="2017-04-16T17:34:36.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="江西移动现状分析">
+<meta name="twitter:description" content="江西移动于2016年年末对计费系统进行了改造升级，首先是针对10.xx内网段进行升级导致所有老套路干扰失效，随后对100.xx段也进行了升级，至此江西南昌地区移动免流基本和谐。 优先级（检测时间2017/1/1）: HTTP部分 M&amp;gt;H&amp;gt;XH检测XH空首H有网HTTPS H&amp;gt;XH&amp;gt;M不检测XH空首H无网干扰： 真H前加文字、符号无网\n 被检测跳转\t 空格无效\r似乎无效">
+  
+    <link rel="alternate" href="/atom.xml" title="‘s Memory1" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">‘s Memory1</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-2017-01-03_jx-cm" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/03/2017-01-03_jx-cm/" class="article-date">
+  <time datetime="2017-01-03T10:39:04.000Z" itemprop="datePublished">2017-01-03</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      江西移动现状分析
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>江西移动于2016年年末对计费系统进行了改造升级，首先是针对10.xx内网段进行升级导致所有老套路干扰失效，随后对100.xx段也进行了升级，至此江西南昌地区移动免流基本和谐。</p>
+<p>优先级（检测时间2017/1/1）:</p>
+<p>HTTP部分</p>
+<p>M&gt;H&gt;XH<br>检测XH<br>空首H有网<br>HTTPS</p>
+<p>H&gt;XH&gt;M<br>不检测XH<br>空首H无网<br>干扰：</p>
+<p>真H前加文字、符号无网<br>\n 被检测跳转<br>\t 空格无效<br>\r似乎无效</p>
+<p>现状分析及对策：</p>
+<p>那么来看看最近半和谐（部分地区能用）的模式:</p>
+<p><code>[M] [U] [V]\r\nHost:\r wap.10086.cn\r\nHost: [H]\r\n</code></p>
+<p>很精妙的双H,虽然放在以前是肯定不能用的，达不到伪装的目的，但随着加大对\r的和谐力度，这反倒成了能够利用起来的伪装，运营商绕过\r检测到后面的免流Host,误认为第一个Host为真，而网关则不能够以第一个Host联网，所以自然就达到了免流的目的。</p>
+<p>但这模式和谐也很容易，再往下抓取Host，真实H就随之被扫出来，所谓道高一尺魔高一丈，上有政策下有对策，我们当然不能放任运营商作威作福，所以还可以在此基础上进行改动，如下:</p>
+<p>改法一:</p>
+<p><code>[M] [U] [V]\r\nHos:\n wap.10086.cn\r\nHost: [H]\r\n</code></p>
+<p>改法二:</p>
+<p><code>[M] [U] [V]\r\nHost:\r wap.10086.cn \rHost:\n wap.10086.cn\r\nHost: [H]\r\n</code></p>
+<p>在原来的基础上再添加一个Host，效果不言而喻</p>
+<p>改法三:</p>
+<p><code>[M] [U] [V]\r\nHost:\r wap.10086.cn \rHost:\n wap.10086.cn\rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p>进一步加强伪装，不过这时候就要考虑联网问题了，伪装增多的同时也会影响网关的判断</p>
+<p>还有更多的改法，核心不变……</p>
+<p>其实看到这个双H我们不难想到以前一个模式:</p>
+<p>②<code>[M] [U] [V]\rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p><code>[M] [U] [V]\rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p>这同样是当初很经典的模式，相信很多人都想复活，只是为什么会和谐呢？不妨来看看我在半和谐时期做的改动:</p>
+<p>改动一:</p>
+<p><code>[M] [U] [V]\r\r \rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p><code>[M] [U] [V]\r\r \rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p>改动二:</p>
+<p><code>[M] [U] [V]\r万象\rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p><code>[M] [U] [V]\r万象\rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p>改动三:</p>
+<p><code>[M] [U] [V]\r\r10086\rHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+<p>可以说每一次改动都极大地降低了跳点，这说明运营商并不是以检测首头的完整度来扣费的，所以，我们可以在此基础上结合模式①，来思考新的模式。</p>
+<p>已知②的模式已经无法联网，所以我们可以这样:</p>
+<p><code>[M] [U] [V]\rHost: wap.10086.cn\r\nHost:\r wap.10086.cn\r\nHost: [H]\r\n</code></p>
+<p>还可以这样:</p>
+<p><code>[M] [U] [V]\rHost: wap.10086.cn\r\nHost:\n wa. 10086.cn \nHost: [H]\r\nHost: wap.10086.cn\r\n</code></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/01/03/2017-01-03_jx-cm/" data-id="cjfipiyys000gd4unvvh16fh7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/01/03/2017-01-03_compare-xproxy/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          zProxy TinyProxy rProxy搭建及对比
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/10/01/2016-10-01_wndr3800/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">网件WNDR3800 使用OpenWrt Chaos Calmer 15.05单线多拨教程</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">January 2015</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/04/03/Invalid da_-e4-b8-80-e4-b8-aa-e9-95-bf-e6-95-85-e4-ba-8b/">念七年</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/21/2017-05-21_usable-ml/">免流可用记录</a>
+          </li>
+        
+          <li>
+            <a href="/2017/04/17/2017-04-17_wordpress-to-ghost/">WordPress迁移至Ghost笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2017/04/16/2017-04-16_kms-service/">KMS服务~一句命令激活windows/office</a>
+          </li>
+        
+          <li>
+            <a href="/2017/04/16/2017-04-16_operation-not-permitted/">Root用户删除文件提示：Operation not permitted</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 bigback<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
